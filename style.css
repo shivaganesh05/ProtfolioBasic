@@ -176,17 +176,29 @@ section {
   margin: auto 0;
 }
 
+.section__pic-container2{
+  display: flex;
+  height: 400px;
+  width: 650px;
+  align-items: left;
+  margin: auto 0;
+
+}
+
 .section__pic-container2 img {
-  width: 350px;         /* Adjust size as needed */
-  height: 350px;        /* Same as width to maintain circular shape */
-  border-radius: 50%;   /* Makes the image circular */
-  object-fit: cover;    /* Ensures image covers the circle nicely */
-  border: 2px solid #ccc; /* Optional: adds a border */
+  width: 350px;         
+  height: 350px;     
+  border-radius: 50%;   
+  object-fit: cover;   
+  border: 2px solid #ccc;
 }
 
 
 .section__text {
+  margin-left: -30px !important;
   align-self: center;
+  width: 700px;
+
   text-align: center;
 }
 
@@ -199,6 +211,34 @@ section {
 }
 
 .section__text__p2 {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-size: 3rem;
+  text-align: center;
+}
+
+
+
+
+.section__text2 {
+  margin-left: -230px !important;
+  align-self: center;
+  width: 700px;
+  text-align: center;
+}
+
+.section__text2 p {
+  font-weight: 600;
+}
+
+.section__text2__p1 {
+  text-align: center;
+}
+
+.section__text2__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
 }
