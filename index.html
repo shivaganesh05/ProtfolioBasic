@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Hemanth Solleti</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Hemanth Solleti</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container2">
+      <img src="./assets/hemanth-image.jpeg" alt="Hemanth Solleti profile picture" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Hemanth Solleti</h1>
+      <p class="section__text__p2">Web Developer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/HemanthSolleti_Resume.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/hemanthsolleti/'" />
+        <img src="./assets/github.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/hemanthsolleti21'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/Hemanth2pic.png" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>2+ years <br />Web Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>
+              Bachelor of Technology. <br />Electronics and Communication
+              Engineering
+            </p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Experienced Web Developer with 2+ years of experience in Python,
+            Django, DRF, and React.js. Built 70+ scalable APIs and optimized
+            PostgreSQL databases for performance. Delivered full-stack
+            solutions with RBAC, lazy loading, and third-party integrations.
+            Improved UX through React.js interfaces and efficient API design.
+            Collaborated in Agile teams with strong focus on clean,
+            maintainable code.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Web Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Python</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Django</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Restframework</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>PostgreSQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>React.js</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Web Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML5</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS3</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>ERD Design</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Django ORM</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Git, Jira</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/SafePaani01.png" width="300px" height="300px" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">SafePani</h2>
+          <div class="btn-container">
+            <p>
+              • SafePani is a real-time water quality monitoring system. <br>
+              • Uses advanced sensor technology to detect contaminants. <br>
+              • Measures key water quality parameters like pH, turbidity, and TDS. <br>
+              • Delivers instant reports via a user-friendly dashboard. <br>
+              • Suitable for households, industries, and municipalities. <br>
+              • Helps ensure access to safe and clean drinking water.
+            </p>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/lms-logo.jpg"   alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title2 project-title ">LMS</h2>
+          <div class="btn-container">
+            <p>• Developed an LMS with role-based dashboards for Admin, Teachers, and Students.<br>
+              • Optimized API calls with lazy loading, reducing load time from 5s to under 1s.<br>
+              • Integrated third-party tools like HTML editors for enhanced assessments.<br>
+              • Ensured seamless functionality and improved user experience across roles.</p>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/cms-logo.png" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title3 project-title">CMS</h2>
+          <div class="btn-container">
+            <p>
+              • Created a dashboard to visualize school performance metrics and manage user access with
+              RBAC using Django REST APIs.<br>
+              • Generated and established REST APIs to fetch and serve data for graphical and tabular displays.<br>
+              • performed Dual Database Linking with DAG software to synchronize and connect two PostgreSQL
+              databases.<br>
+              • Generated reports in Excel and PDF formats for data analysis and presentation.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/inv-logo.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title4 project-title">Inventory</h2>
+          <div class="btn-container flex">
+            <p class="text-left">
+              • Developed RESTful APIs with Django DRF for a seamless user experience across devices.<br>
+              • Integrated database models to efficiently manage consultant-customer relationships.<br>
+              • Optimized API performance through caching, pagination, and query enhancements.<br>
+              • Ensured scalability and faster response times for improved user interactions
+            </p>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/OneLogin_Logo.png" alt="Project 2" class="project-img3" />
+          </div>
+          <h2 class="experience-sub-title5 project-title">One-Login</h2>
+          <div class="btn-container">
+            <p>
+              • Built a Role-Based Access Control (RBAC) system using Django and DRF for user permissions.<br>
+              • Implemented dynamic role assignment and secure RESTful APIs for seamless communication.<br>
+              • Optimized database queries and authentication for improved performance.<br>
+              • Enhanced system security through efficient access control and data handling.
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/iot.png"  alt="Project 3" class="project-img1" />
+          </div>
+          <h2 class="experience-sub-title6 project-title">IOT-Device</h2>
+          <div class="btn-container">
+            <p>
+              • Developed REST APIs with Django REST Framework for real-time IoT device control and monitoring. <br>
+              • Led a 4-member backend team, managing tasks and providing technical support. <br>
+              • Created models and endpoints to handle live IoT data like temperature and humidity. <br>
+              • Built APIs for structured data visualization (charts, graphs, gauges). <br>
+              • Implemented device categorization and historical data storage for analysis.
+              </p>              
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p>
+          <a href="mailto:examplemail@gmail.com">hemanthsolleti6@gmail.com</a>
+        </p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p>
+          <a href="https://www.linkedin.com/in/hemanthsolleti/">LinkedIn</a>
+        </p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Hemanth Solleti. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+
+</html>
