@@ -244,6 +244,7 @@ section {
   margin-bottom: 1rem;
 }
 
+
 /* Optional: Responsive font size adjustment */
 @media (max-width: 768px) {
   .section__text2__p2 {
