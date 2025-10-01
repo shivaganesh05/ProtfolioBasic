@@ -8,6 +8,11 @@
 }
 
 body {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 16px; /* for spacing */
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 
@@ -179,15 +184,15 @@ section {
 .section__pic-container2{
   display: flex;
   height: 400px;
-  width: 650px;
+  /* width: 650px; */
   align-items: left;
   margin: auto 0;
 
 }
 
 .section__pic-container2 img {
-  width: 350px;         
-  height: 350px;     
+  width: 360px;         
+  height: 420px;     
   border-radius: 50%;   
   object-fit: cover;   
   border: 2px solid #ccc;
@@ -207,12 +212,21 @@ section {
 }
 
 .section__text__p1 {
+  margin-top: 30px;
   text-align: center;
 }
 
 .section__text__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+}
+
+.section__text__p6{
+  margin-top: 30px;
+  font-weight: 300;
+  text-align: center;
+  line-height: 30px;
+  font-size: 18px;
 }
 
 .title {
@@ -242,6 +256,13 @@ section {
 .section__text2__p2 {
   font-size: 1.75rem;
   margin-bottom: 1rem;
+}
+
+.section__text__p4{
+    font-weight: 300 !important;
+    line-height: 30px;
+    margin-bottom: 30px;
+
 }
 
 
@@ -284,7 +305,10 @@ section {
   justify-content: center;
   gap: 1rem;
 }
-
+.content_para{
+  
+  text-align: left !important;
+}
 .btn {
   font-weight: 600;
   transition: all 300ms ease;
@@ -389,8 +413,17 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
+  padding-top: 30px;
 }
 .experience-sub-title2 {
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+  /* padding-top: 30px; */
+}
+
+.experience-sub-title3 {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
@@ -403,21 +436,13 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
-  padding-top: 60px;
-}
-
-.experience-sub-title4 {
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
 }
 .experience-sub-title5 {
   color: rgb(85, 85, 85);
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
-  padding-top: 55px;
+  padding-top: 40px;
 }
 
 .experience-sub-title6 {
@@ -425,7 +450,7 @@ section {
   font-weight: 600;
   font-size: 1.75rem;
   margin-bottom: 2rem;
-  padding-top: 35px;
+  padding-top: 18px;
 }
 
 
@@ -467,22 +492,29 @@ article .icon {
 }
 
 .project-img {
-  border-radius: 2rem;
+  /* border-radius: 2rem; */
   width: 90%;
   height: 90%;
 }
+
 
 .project-img3 {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
-  padding-top: 80px;
+  padding-top: 66px;
 }
 .project-img1 {
   border-radius: 2rem;
   width: 50%;
   height: 80%;
-  margin-top: 40px;
+  margin-top: 10px;
+}
+.project-img9 {
+  /* border-radius: 2rem; */
+  width: 90%;
+  padding-top: 38px !important;
+  height: 90%;
 }
 .project-title {
   margin: 1rem;
@@ -490,6 +522,7 @@ article .icon {
 }
 
 .project-btn {
+  margin-top: 20px;
   color: black;
   border-color: rgb(163, 163, 163);
 }
@@ -537,7 +570,7 @@ article .icon {
 /* FOOTER SECTION */
 
 footer {
-  height: 26vh;
+  height: 6vh !important;
   margin: 0 1rem;
 }
 
